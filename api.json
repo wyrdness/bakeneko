@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/bakeneko",
     "maintainers": [
       {
@@ -16,72 +16,138 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "bakeneko",
-    "name": "Bakeneko (化け猫)",
-    "aliases": [],
+    "name": "Bakeneko",
+    "aliases": [
+      { "name": "化け猫 / 化猫", "language": "Japanese", "meaning": "'Changed cat' / 'monster cat'" },
+      { "name": "Kaibyō", "language": "Japanese (怪猫)", "meaning": "Generic term for supernatural cats including bakeneko and nekomata" },
+      { "name": "Nabeshima no bakeneko", "language": "Japanese", "region": "Saga (Hizen)", "meaning": "'The Bakeneko of Nabeshima' — most famous Edo-period bakeneko story" },
+      { "name": "Saga bakeneko", "language": "Japanese", "region": "Saga Prefecture" }
+    ],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Bakeneko have become a recognizable character type in Japanese media, often depicted as mysterious, elegant, and sometimes dangerous cat spirits.",
+    "subcategory": "Yōkai (kaibyō / supernatural cat)",
     "tags": [
-      "folklore",
-      "mythology"
+      "yokai",
+      "japanese-folklore",
+      "shapeshifter",
+      "edo-period",
+      "kabuki",
+      "kaibyō",
+      "nekomata-cousin",
+      "domestic-cat-spirit"
     ],
     "status": "documented",
     "description": {
-      "summary": "Bakeneko (化け猫, \\\"monster cat\\\" or \\\"changed cat\\\") is a type of Japanese yokai—a supernatural creature from Japanese folklore.",
-      "full": "Bakeneko (化け猫, \\\"monster cat\\\" or \\\"changed cat\\\") is a type of Japanese yokai—a supernatural creature from Japanese folklore. According to tradition, ordinary cats that live for many years (typically 10-13 years), grow to an unusual size, or develop a particularly long tail can transform into bakeneko. These supernatural cats possess various magical abilities including shape-shifting into human form, speaking human language, walking upright on their hind legs, controlling fire, animating the dead (necromancy), and cursing humans. Bakeneko are particularly famous for their ability to perfectly impersonate murdered humans. The bakeneko's disposition varies: some act malevolently, often seeking revenge for mistreatment, while others are simply mischievous tricksters. A distinctive quirk is their fondness for eating lamp oil."
+      "summary": "A class of yōkai in Japanese folklore: a domestic cat that has developed supernatural powers — shape-shifting, human speech, control of the dead — usually after living to a great age, growing very large, or possessing a long tail. Distinct from but closely related to the two-tailed nekomata.",
+      "full": "Bakeneko (化け猫, 'changed cat' / 'monster cat') is a category of kaibyō (怪猫, supernatural cat) in Japanese folklore. According to widespread Edo-period belief, an ordinary cat might transform into a bakeneko on growing very old (commonly given as 7-13 years, with regional variation), reaching an unusual size, or developing a long tail. The bakeneko was credited with a wide repertoire of supernatural powers: shape-shifting into human form (often an elderly woman, sometimes the cat's own owner), walking upright on its hind legs, speaking human language, animating corpses, possessing humans, manipulating fire, and licking lamp-oil — a folk-belief that has plausible naturalistic roots in cats' attraction to fish-oil lamps. The most famous narrative is the Nabeshima no bakeneko sōdō ('Bakeneko Disturbance of Nabeshima'), set in 17th-century Saga (Hizen Province), in which a cat avenges its murdered mistress by tormenting the Nabeshima daimyō until killed by a loyal retainer. The story circulated in kōdan (oral storytelling), kabuki, and Edo kaidan-shū (collections of strange tales) including Mimibukuro and Kasshi Yawa. The bakeneko is closely related to the nekomata — the principal traditional distinction is that the nekomata has two tails while the bakeneko has only one. The bakeneko remains a recurring figure in modern Japanese popular culture, appearing in anime, manga, video games, and horror films."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Japanese 化け (bake, from bakeru, 'to transform / become a ghost') + 猫 (neko, 'cat').",
+      "meaning": "'Transformed cat' or 'monster cat'.",
+      "first_use": "Established usage by the Edo period (1603-1868) in kaidan literature, kabuki, and ukiyo-e."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Bakeneko have become a recognizable character type in Japanese media, often depicted as mysterious, elegant, and sometimes dangerous cat spirits.",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Yōkai (Japanese supernatural creature)",
+      "subtype": "Kaibyō — supernatural cat",
+      "variant": "Single-tailed bakeneko (vs. two-tailed nekomata); regional variants including the Saga / Nabeshima tradition"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "nekomata", "name": "Nekomata", "relationship": "regional_variant", "description": "Two-tailed cat yōkai; closely related supernatural cat type." },
+      { "id": "kasha", "name": "Kasha", "relationship": "related", "description": "Cat-shaped yōkai that steals corpses from funerals." },
+      { "id": "maneki-neko", "name": "Maneki-neko", "relationship": "related", "description": "Beckoning-cat figure of Japanese folk belief — non-malevolent companion to bakeneko/nekomata in popular culture." },
+      { "id": "kitsune", "name": "Kitsune", "relationship": "similar", "description": "Fox shapeshifter yōkai; a parallel domestic-animal supernatural figure." },
+      { "id": "tanuki", "name": "Tanuki", "relationship": "similar", "description": "Raccoon-dog shapeshifter; another long-lived animal yōkai." }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Long tail", "description": "Especially long-tailed cats are believed to be candidates for bakeneko transformation; in some regions owners docked kittens' tails to prevent it.", "frequency": "common" },
+        { "feature": "Bipedal locomotion", "description": "Reported to walk and dance on its hind legs.", "frequency": "common" },
+        { "feature": "Cloth tied around head", "description": "In Edo iconography, bakeneko are often depicted dancing with a small cloth (tenugui) tied around the head.", "frequency": "common" },
+        { "feature": "Large size", "description": "Bakeneko are described as having grown unusually large before transforming.", "frequency": "common" },
+        { "feature": "Aged appearance", "description": "A long-lived domestic cat (often given as 7-13 years) is the typical candidate for transformation.", "frequency": "common" }
+      ],
+      "morphology": "A domestic cat that, with age and other thresholds, develops yōkai attributes: bipedal posture, larger size, and human capabilities. In its most overt form may shape-shift entirely into human appearance."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Shape-shifting", "description": "Transforms into human form, most commonly an elderly woman; sometimes impersonates the cat's own deceased owner.", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Human speech", "description": "Speaks intelligibly with humans.", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Necromancy / corpse-animation", "description": "Reputed to leap over a corpse to animate it (a belief that supports the rite of guarding wakes against cats).", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Possession", "description": "Possesses humans, often relatives of the cat's owner.", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Fire control", "description": "Reputed to manipulate or summon fire.", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Lamp-oil licking", "description": "Drinks lamp-oil — a folk belief reflecting the use of fish-based oils in Edo lamps that cats genuinely found attractive.", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Bipedal dancing", "description": "Famously depicted dancing on hind legs at night, often with a cloth around the head.", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["domestic households", "old temples", "abandoned mansions", "the homes of those who have wronged the cat"],
+      "patterns": [
+        "Transforms after long life with a human household",
+        "May avenge mistreatment of itself or its mistress",
+        "Otherwise mischievous rather than uniformly malevolent",
+        "Strongly associated with night activity"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Pan-Japanese folklore figure; locally inflected by regional traditions, with the most famous narrative cluster centred on Saga (former Hizen Province), home of the Nabeshima bakeneko tradition.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": ["Saga Prefecture (Hizen)", "Edo / Tokyo region", "Nationwide Japan"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Saga (Nabeshima domain)",
+        "location": {
+          "description": "Former Hizen Province, modern Saga Prefecture",
+          "country": "Japan",
+          "region": "Saga"
+        },
+        "peak_period": "Edo period (Nabeshima bakeneko sōdō tradition)",
+        "notes": "Setting of the most famous bakeneko narrative."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Edo period",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Edo-period kaidan-shū (collections of strange tales) and kabuki playbills."
+      },
+      "peak_activity_periods": [
+        { "period": "1603-1868", "description": "Edo period — proliferation of bakeneko narratives in kaidan-shū, kabuki, ukiyo-e, and rakugo." },
+        { "period": "1820s-1830s", "description": "Toriyama Sekien-style yōkai compendia and the Mimibukuro / Kasshi Yawa traditions documenting bakeneko stories." }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Japanese domestic culture: bakeneko folklore arose alongside the spread of cats as household animals from at least the Heian period and intensified in the Edo period when domestic cats were widespread.",
+      "earliest_accounts": "Edo-period kaidan-shū (e.g. Mimibukuro of Negishi Yasumori, c. 1782-1814) and kabuki performances anchor the figure in the 17th-19th centuries.",
+      "folklore_connections": "Closely tied to nekomata (two-tailed cat yōkai) and to a wider yōkai tradition of long-lived domestic animals (kitsune, tanuki) acquiring supernatural traits."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "Edo period (1603-1868)", "event": "Bakeneko narratives proliferate in kaidan-shū, kabuki, rakugo, and ukiyo-e.", "significance": "Period of canonical formation.", "source": "Edo-period kaidan-shū and kabuki literature." },
+      { "date": "c. 1782-1814", "event": "Negishi Yasumori compiles Mimibukuro (耳嚢), a kaidan-shū including bakeneko narratives.", "significance": "Major Edo documentary record.", "source": "Negishi Yasumori, Mimibukuro" },
+      { "date": "1821-1841", "event": "Matsura Seizan compiles Kasshi Yawa (甲子夜話), a long miscellany including supernatural-cat anecdotes.", "significance": "Further Edo documentary record.", "source": "Matsura Seizan, Kasshi Yawa" },
+      { "date": "1853", "event": "Kabuki adaptation 'Hana Sagano Nekomata Ishibumi' performed, contributing to the codification of the Saga bakeneko narrative on stage.", "significance": "Theatrical canonisation.", "source": "Edo kabuki playbills (1853)." },
+      { "date": "20th-21st century", "event": "Mizuki Shigeru and modern yōkai-studies scholars synthesise the bakeneko tradition for popular audiences.", "significance": "Modern scholarly and popular consolidation.", "source": "Mizuki Shigeru's yōkai compendia; Komatsu Kazuhiko's academic work." }
+    ],
+    "modern_era": "Bakeneko remain ubiquitous in modern Japanese popular culture, especially in anime, manga, video games, and horror cinema. They are stock characters in works by Mizuki Shigeru and have been the subject of academic reassessment by yōkai scholars (Komatsu Kazuhiko, Michael Dylan Foster)."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +158,127 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "bakeneko-evidence-mimibukuro",
+        "type": "kaidan-shū",
+        "name": "Mimibukuro (耳嚢) — Negishi Yasumori",
+        "date": "c. 1782-1814",
+        "description": "Edo-period miscellany of strange tales compiled by Negishi Yasumori; includes bakeneko anecdotes.",
+        "status": "verified",
+        "source": "Negishi Yasumori, Mimibukuro"
+      },
+      {
+        "id": "bakeneko-evidence-kasshi-yawa",
+        "type": "miscellany",
+        "name": "Kasshi Yawa (甲子夜話) — Matsura Seizan",
+        "date": "1821-1841",
+        "description": "Long Edo-period miscellany by the daimyō of Hirado that includes accounts of bakeneko and kaibyō.",
+        "status": "verified",
+        "source": "Matsura Seizan, Kasshi Yawa"
+      },
+      {
+        "id": "bakeneko-evidence-saga-kabuki",
+        "type": "kabuki",
+        "name": "Saga / Nabeshima bakeneko kabuki tradition",
+        "date": "Late Edo period (mid-19th century)",
+        "description": "Kabuki and kōdan performances dramatising the Nabeshima bakeneko sōdō; titles include 'Hana Sagano Nekomata Ishibumi' (1853).",
+        "status": "verified",
+        "source": "Edo kabuki playbills and theatrical histories."
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Long-lived cats becoming yōkai",
+        "description": "The classic folk belief: a domestic cat that lives many years (7-13 by region) and develops a long tail or great size becomes a bakeneko, taking on shape-shifting and other supernatural powers.",
+        "proponents": ["Edo-period kaidan tradition", "Mizuki Shigeru"],
+        "evidence_cited": ["Mimibukuro and Kasshi Yawa narratives", "Kabuki tradition"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Naturalistic origins of cat folklore",
+        "description": "Several bakeneko traits have plausible naturalistic origins: cats' nocturnal eyes, static-electric fur, near-silent gait, retained predatory behaviour, and attraction to fish-based lamp-oils. Cumulative observation of these traits seeded supernatural attribution.",
+        "proponents": ["Modern folkloristic and zoological commentary"],
+        "evidence_cited": ["Behavioural ethology of domestic cats", "Edo-era use of fish-oil lamps"]
+      },
+      {
+        "name": "Narrative-cultural construction",
+        "description": "The bakeneko, like other yōkai, is best understood as a culturally constructed figure consolidated through Edo-period kaidan literature, kabuki, and ukiyo-e rather than as a discrete creature.",
+        "proponents": ["Komatsu Kazuhiko", "Michael Dylan Foster"],
+        "evidence_cited": ["Studies of yōkai in Edo print culture; theatre history."]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Edo-period kaidan-shū tradition",
+        "Saga / Hizen Nabeshima bakeneko local tradition",
+        "Kabuki and rakugo bakeneko performance tradition"
+      ],
+      "stories": [
+        "Nabeshima no bakeneko sōdō ('The Bakeneko Disturbance of Nabeshima', Saga, Edo period)",
+        "Various entries in Mimibukuro (Negishi Yasumori, c. 1782-1814)",
+        "Various entries in Kasshi Yawa (Matsura Seizan, 1821-1841)"
+      ],
+      "beliefs": "Domestic cats — especially long-tailed and long-lived ones — were widely treated with caution in Edo Japan. Wakes were guarded against cats believed capable of animating the dead, and tail-docking of kittens persisted in some regions to prevent transformation."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Mizuki Shigeru, GeGeGe no Kitarō (1960-) and Yōkai Daizukai compendia",
+        "Lafcadio Hearn, In Ghostly Japan (1899) — touches on supernatural-cat motifs",
+        "Michael Dylan Foster, The Book of Yōkai (UC Press, 2015)",
+        "Hiroko Yoda and Matt Alt, Yokai Attack! (Tuttle, 2008/2012)"
+      ],
+      "film_tv": [
+        "Kuroneko (Kaneto Shindō, 1968) — black-cat ghost film with strong bakeneko / kaibyō motifs",
+        "Bakeneko: A Vengeful Spirit (Hajime Hashimoto, 2010)",
+        "Mononoke (anime, 2007) — 'Bakeneko' arc",
+        "Numerous tokusatsu and anime series featuring bakeneko characters"
+      ],
+      "games": [
+        "Shin Megami Tensei / Persona series — bakeneko / nekomata as recurring demons",
+        "Yo-Kai Watch — bakeneko-derived characters",
+        "Nioh series — bakeneko bosses and enemies"
+      ],
+      "other": [
+        "Recurring motif in ukiyo-e by artists including Utagawa Kuniyoshi (e.g. mid-19th-century cat prints) and Tsukioka Yoshitoshi"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Komatsu Kazuhiko", "affiliation": "International Research Center for Japanese Studies", "contribution": "Leading academic on Japanese yōkai including bakeneko.", "period": "1980s-present" },
+      { "name": "Michael Dylan Foster", "affiliation": "UC Davis (Japanese folklore)", "contribution": "English-language synthesis of yōkai folklore including bakeneko.", "period": "2000s-present" },
+      { "name": "Mizuki Shigeru", "affiliation": "Manga artist / yōkai scholar", "contribution": "Modern populariser of bakeneko through manga and yōkai compendia.", "period": "1950s-2015" },
+      { "name": "Negishi Yasumori", "affiliation": "Edo-period magistrate / kaidan compiler", "contribution": "Compiled Mimibukuro, including bakeneko anecdotes.", "period": "Late 18th-early 19th century" }
+    ],
+    "organizations": [
+      { "name": "International Research Center for Japanese Studies (Nichibunken)", "url": "https://www.nichibun.ac.jp/en/", "focus": "Academic research on Japanese folklore, including yōkai." },
+      { "name": "Mizuki Shigeru Memorial Museum", "url": "https://mizuki.sakaiminato.net/en/", "focus": "Sakaiminato, Tottori — Mizuki's yōkai work." }
+    ],
+    "ongoing_studies": "Continued academic interest in Edo-period yōkai literature, ukiyo-e cat imagery, and modern-media reuse of bakeneko."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-bakeneko", "type": "website", "title": "Bakeneko — Wikipedia", "url": "https://en.wikipedia.org/wiki/Bakeneko", "accessed": "2026-05-07" },
+    { "id": "foster-2015-bakeneko", "type": "book", "title": "The Book of Yōkai: Mysterious Creatures of Japanese Folklore", "authors": ["Michael Dylan Foster"], "publication": "University of California Press", "date": "2015", "isbn": "978-0520271029" },
+    { "id": "yoda-alt-2012-bakeneko", "type": "book", "title": "Yokai Attack! The Japanese Monster Survival Guide", "authors": ["Hiroko Yoda", "Matt Alt"], "publication": "Tuttle Publishing", "date": "2012", "isbn": "978-4805312193" },
+    { "id": "mimibukuro", "type": "book", "title": "Mimibukuro (耳嚢)", "authors": ["Negishi Yasumori"], "publication": "Edo-period manuscript", "date": "c. 1782-1814" },
+    { "id": "kasshi-yawa", "type": "book", "title": "Kasshi Yawa (甲子夜話)", "authors": ["Matsura Seizan"], "publication": "Edo-period manuscript", "date": "1821-1841" }
+  ]
 }

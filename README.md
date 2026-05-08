@@ -1,288 +1,182 @@
-# Bakeneko (化け猫)
+# Bakeneko
 
-> *"The cat that lives too long becomes something more than a cat."*
+> A class of yōkai in Japanese folklore: a domestic cat that has developed supernatural powers — shape-shifting, human speech, control of the dead — usually after living to a great age, growing very large, or possessing a long tail. Distinct from but closely related to the two-tailed nekomata.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Category](https://img.shields.io/badge/category-ENTITY__SPIRIT-purple)]()
-[![Status](https://img.shields.io/badge/status-traditional__folklore-brightgreen)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-documented-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `bakeneko` |
 | **Category** | ENTITY_SPIRIT |
-| **Classification** | Yokai / Shapeshifter |
-| **Origin** | Japan (Edo period) |
-| **Type** | Japanese Cat Spirit |
-| **Status** | Traditional Folklore |
+| **Subcategory** | Yōkai (kaibyō / supernatural cat) |
+| **First recorded** | Edo period (1603-1868) |
+| **Primary range** | Pan-Japanese folklore figure |
+| **Status** | documented |
 
 ---
-
 ## Overview
 
-Bakeneko (化け猫, "monster cat" or "changed cat") is a type of Japanese yokai—a supernatural creature from Japanese folklore. According to tradition, ordinary cats that live for many years (typically 10-13 years), grow to an unusual size, or develop a particularly long tail can transform into bakeneko.
-
-These supernatural cats possess various magical abilities including shape-shifting into human form, speaking human language, walking upright on their hind legs, controlling fire, animating the dead (necromancy), and cursing humans. Bakeneko are particularly famous for their ability to perfectly impersonate murdered humans.
-
-The bakeneko's disposition varies: some act malevolently, often seeking revenge for mistreatment, while others are simply mischievous tricksters. A distinctive quirk is their fondness for eating lamp oil.
+Bakeneko (化け猫, 'changed cat' / 'monster cat') is a category of kaibyō (怪猫, supernatural cat) in Japanese folklore. According to widespread Edo-period belief, an ordinary cat might transform into a bakeneko on growing very old (commonly given as 7-13 years, with regional variation), reaching an unusual size, or developing a long tail. The bakeneko was credited with a wide repertoire of supernatural powers: shape-shifting into human form (often an elderly woman, sometimes the cat's own owner), walking upright on its hind legs, speaking human language, animating corpses, possessing humans, manipulating fire, and licking lamp-oil — a folk-belief that has plausible naturalistic roots in cats' attraction to fish-oil lamps. The most famous narrative is the Nabeshima no bakeneko sōdō ('Bakeneko Disturbance of Nabeshima'), set in 17th-century Saga (Hizen Province), in which a cat avenges its murdered mistress by tormenting the Nabeshima daimyō until killed by a loyal retainer. The story circulated in kōdan (oral storytelling), kabuki, and Edo kaidan-shū (collections of strange tales) including Mimibukuro and Kasshi Yawa. The bakeneko is closely related to the nekomata — the principal traditional distinction is that the nekomata has two tails while the bakeneko has only one. The bakeneko remains a recurring figure in modern Japanese popular culture, appearing in anime, manga, video games, and horror films.
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| 化け猫 / 化猫 | Japanese | 'Changed cat' / 'monster cat' |
+| Kaibyō | Japanese (怪猫) | Generic term for supernatural cats including bakeneko and nekomata |
+| Nabeshima no bakeneko | Japanese / Saga (Hizen) | 'The Bakeneko of Nabeshima' — most famous Edo-period bakeneko story |
+| Saga bakeneko | Japanese / Saga Prefecture |  |
 
-### Primary Name
-- **Bakeneko** (化け猫) — From Japanese 化け (*bake*, "to change/transform") and 猫 (*neko*, "cat"), meaning "changed cat" or "monster cat"
+## Etymology
 
-### Alternative Names
-
-| Name | Language | Meaning |
-|------|----------|---------|
-| 化け猫 | Japanese (kanji) | Monster cat, transformed cat |
-| Ghost Cat | English | Translation/interpretation |
-
----
-
-## Classification
-
-### Taxonomy
-```
-Category: ENTITY_SPIRIT
-├── Type: Yokai
-├── Subtype: Shapeshifter
-└── Variant: Japanese Cat Spirit
-```
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Description |
-|------------|--------------|-------------|
-| [Nekomata](/nekomata) | Variant | Two-tailed cat yokai, more powerful than bakeneko |
-| [Kitsune](/kitsune) | Similar | Fox shapeshifter with similar transformation abilities |
-| Tanuki | Similar | Raccoon dog shapeshifter yokai |
+- **Origin**: Japanese 化け (bake, from bakeru, 'to transform / become a ghost') + 猫 (neko, 'cat').
+- **Meaning**: 'Transformed cat' or 'monster cat'.
+- **First use**: Established usage by the Edo period (1603-1868) in kaidan literature, kabuki, and ukiyo-e.
 
 ---
+## Related Phenomena
 
-## Characteristics
-
-### Transformation Requirements
-
-| Factor | Description |
-|--------|-------------|
-| **Age** | 10-13 years (varies by tradition) |
-| **Size** | Unusually large cats |
-| **Tail Length** | Particularly long tail |
-
-### Physical Forms
-
-**Base Form (Cat)**:
-- Larger than typical domestic cat
-- Unusually long tail
-- Aged appearance
-- Intelligent, knowing eyes
-
-**Transformed Form**:
-- Can walk upright on hind legs
-- May take complete human form
-- Often impersonates specific deceased individuals with perfect accuracy
-
-### Supernatural Abilities
-
-| Ability | Description | Frequency |
-|---------|-------------|-----------|
-| **Shape-shifting** | Transform into human form, impersonate specific people | Common |
-| **Human speech** | Speak human language | Common |
-| **Bipedal walking** | Walk upright on hind legs | Common |
-| **Necromancy** | Animate and control dead bodies | Occasional |
-| **Fire control** | Create and manipulate fire | Occasional |
-| **Cursing** | Place curses on humans | Occasional |
-
-### Behavioral Patterns
-
-**Disposition**: Variable
-- **Malevolent**: Seeks revenge for cruel treatment
-- **Mischievous**: Enjoys playing tricks on humans
-- **Neutral**: Simply exists as supernatural being
-
-**Notable Behaviors**:
-- Eating lamp oil (distinctive habit)
-- Replacing murdered humans and living as them
-- Perfect impersonation capabilities
-- Revenge against cruel former owners
-- Primarily nocturnal activity
+- [Nekomata](../nekomata/) — _regional_variant_: Two-tailed cat yōkai; closely related supernatural cat type.
+- [Kasha](../kasha/) — _related_: Cat-shaped yōkai that steals corpses from funerals.
+- [Maneki-neko](../maneki-neko/) — _related_: Beckoning-cat figure of Japanese folk belief — non-malevolent companion to bakeneko/nekomata in popular culture.
+- [Kitsune](../kitsune/) — _similar_: Fox shapeshifter yōkai; a parallel domestic-animal supernatural figure.
+- [Tanuki](../tanuki/) — _similar_: Raccoon-dog shapeshifter; another long-lived animal yōkai.
 
 ---
+## Physical Description
 
-## Cultural Significance
+- **Morphology**: A domestic cat that, with age and other thresholds, develops yōkai attributes: bipedal posture, larger size, and human capabilities. In its most overt form may shape-shift entirely into human appearance.
 
-### Historical Context
+### Features
 
-The bakeneko tradition became particularly prominent during Japan's Edo period (1603-1868), appearing in urban folklore, kabuki plays, and ghost stories. The fear of cats transforming into bakeneko led to a cruel but widespread practice: cutting cats' tails short to prevent them from becoming supernatural creatures. This practice contributed to the development and popularity of the Japanese Bobtail cat breed, which naturally has a short, "pom-pom" tail.
+| Feature | Description | Frequency |
+|---|---|---|
+| Long tail | Especially long-tailed cats are believed to be candidates for bakeneko transformation; in some regions owners docked kittens' tails to prevent it. | common |
+| Bipedal locomotion | Reported to walk and dance on its hind legs. | common |
+| Cloth tied around head | In Edo iconography, bakeneko are often depicted dancing with a small cloth (tenugui) tied around the head. | common |
+| Large size | Bakeneko are described as having grown unusually large before transforming. | common |
+| Aged appearance | A long-lived domestic cat (often given as 7-13 years) is the typical candidate for transformation. | common |
 
-### Japanese Bobtail Connection
+## Reported Abilities
 
-The Japanese Bobtail cat breed exists partly because of bakeneko folklore:
-- Short tails were thought to prevent transformation into yokai
-- Selective breeding favored naturally short-tailed cats
-- The breed became culturally preferred in Japan
-- Modern Japanese Bobtails carry this historical connection
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Shape-shifting | Transforms into human form, most commonly an elderly woman; sometimes impersonates the cat's own deceased owner. | always | folklore |
+| Human speech | Speaks intelligibly with humans. | common | folklore |
+| Necromancy / corpse-animation | Reputed to leap over a corpse to animate it (a belief that supports the rite of guarding wakes against cats). | common | folklore |
+| Possession | Possesses humans, often relatives of the cat's owner. | occasional | folklore |
+| Fire control | Reputed to manipulate or summon fire. | occasional | folklore |
+| Lamp-oil licking | Drinks lamp-oil — a folk belief reflecting the use of fish-based oils in Edo lamps that cats genuinely found attractive. | common | folklore |
+| Bipedal dancing | Famously depicted dancing on hind legs at night, often with a cloth around the head. | common | folklore |
 
-### Famous Tales
+## Behavior
 
-**The Bakeneko of Nabeshima**: One of the most famous bakeneko legends involves a cat that killed a prince's favorite concubine and then took her form, living undetected at court while slowly draining the prince's life force.
-
----
-
-## Bakeneko vs. Nekomata
-
-While the terms are sometimes used interchangeably, there are distinctions:
-
-| Aspect | Bakeneko | Nekomata |
-|--------|----------|----------|
-| **Tails** | One (long) tail | Two tails (forked/split) |
-| **Power Level** | Supernatural | More powerful |
-| **Age** | 10-13+ years | 13+ years (older) |
-| **Size** | Large cat | Can grow very large (lion-sized) |
-| **Classification** | Generic cat yokai | Specific advanced form |
-
----
-
-## Modern Cultural Presence
-
-### Anime & Manga
-- Featured in numerous anime and manga series
-- Studio Ghibli influences and references
-- Popular character archetype in supernatural stories
-- GeGeGe no Kitaro and other yokai-focused media
-
-### Video Games
-- Common character or enemy type in Japanese games
-- Featured in yokai-themed games
-- Appears in various RPGs and adventure games
-
-### Contemporary Culture
-- Part of living yokai folklore tradition
-- Featured in cultural festivals
-- Yokai tourism and merchandise
-- Modern horror and supernatural media
+- **Activity**: nocturnal
+- **Disposition**: variable
+- **Social structure**: solitary
+- **Habitat**: domestic households, old temples, abandoned mansions, the homes of those who have wronged the cat
 
 ---
+## Distribution
 
-## Cultural Sensitivity Note
+Pan-Japanese folklore figure; locally inflected by regional traditions, with the most famous narrative cluster centred on Saga (former Hizen Province), home of the Nabeshima bakeneko tradition.
 
-> ⚠️ **Important**: Bakeneko are part of traditional Japanese cultural heritage. They should be understood and respected as genuine cultural tradition within the context of Japanese folklore and the broader yokai belief system, not merely as fictional entertainment or cute mascots. This is living cultural tradition that maintains significance in Japanese culture.
+### Hotspots
 
----
-
-## Prevention (Traditional Folklore)
-
-According to traditional beliefs, bakeneko transformation could be prevented by:
-- **Cutting the cat's tail short** — The most common method (though cruel)
-- **Not allowing cats to grow too old** — Preventing them from reaching transformation age
-- **Keeping cats away from corpses** — Preventing necromantic abilities
-
-**Modern Note**: These are historical folklore beliefs, not recommended practices. Modern understanding recognizes these as cultural stories, and animal welfare is paramount.
+| Location | Region | Sightings | Peak |
+|---|---|---|---|
+| Saga (Nabeshima domain) | Saga, Japan |  | Edo period (Nabeshima bakeneko sōdō tradition) |
 
 ---
+## Historical Timeline
 
-## Theories & Interpretations
+| Date | Event | Significance |
+|---|---|---|
+| Edo period (1603-1868) | Bakeneko narratives proliferate in kaidan-shū, kabuki, rakugo, and ukiyo-e. | Period of canonical formation. |
+| c. 1782-1814 | Negishi Yasumori compiles Mimibukuro (耳嚢), a kaidan-shū including bakeneko narratives. | Major Edo documentary record. |
+| 1821-1841 | Matsura Seizan compiles Kasshi Yawa (甲子夜話), a long miscellany including supernatural-cat anecdotes. | Further Edo documentary record. |
+| 1853 | Kabuki adaptation 'Hana Sagano Nekomata Ishibumi' performed, contributing to the codification of the Saga bakeneko narrative on stage. | Theatrical canonisation. |
+| 20th-21st century | Mizuki Shigeru and modern yōkai-studies scholars synthesise the bakeneko tradition for popular audiences. | Modern scholarly and popular consolidation. |
 
-### Folkloric Explanations
+## Evidence
 
-**Age-Based Transformation**: Traditional belief that animals gain spiritual power with age, a concept found throughout East Asian folklore.
+### Documentary
 
-**Physical Abnormality**: Unusually large size or long tails seen as signs of supernatural nature.
-
-### Cultural Interpretations
-
-**Animistic Tradition**: Reflects Shinto belief that all things can possess spirit (kami), especially long-lived things.
-
-**Social Allegory**: May reflect cultural anxieties about:
-- Domestic animals and their unpredictable nature
-- Questions of loyalty and betrayal
-- Revenge and justice
-- The thin line between the familiar and the supernatural
-
----
-
-## In Popular Media
-
-**Notable Appearances**:
-- Various yokai-themed anime series
-- Japanese horror films and stories
-- Video games featuring Japanese folklore
-- Modern manga interpretations
-- Cultural tourism materials
-
-**Character Archetype**: Bakeneko have become a recognizable character type in Japanese media, often depicted as mysterious, elegant, and sometimes dangerous cat spirits.
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Mimibukuro (耳嚢) — Negishi Yasumori | c. 1782-1814 | Edo-period miscellany of strange tales compiled by Negishi Yasumori; includes bakeneko anecdotes. | verified |
+| Kasshi Yawa (甲子夜話) — Matsura Seizan | 1821-1841 | Long Edo-period miscellany by the daimyō of Hirado that includes accounts of bakeneko and kaibyō. | verified |
+| Saga / Nabeshima bakeneko kabuki tradition | Late Edo period (mid-19th century) | Kabuki and kōdan performances dramatising the Nabeshima bakeneko sōdō; titles include 'Hana Sagano Nekomata Ishibumi' (1853). | verified |
 
 ---
+## Theories & Explanations
 
-## How to Report an Encounter
+### Paranormal / Cryptozoological
 
-While bakeneko are traditional folklore, cultural documentation is valuable:
+**Long-lived cats becoming yōkai** _(Edo-period kaidan tradition, Mizuki Shigeru)_
 
-1. **Cultural Context**: Document within framework of folklore and tradition
-2. **Location**: Note any connection to historical sites or regions
-3. **Cultural Sensitivity**: Respect Japanese cultural context
-4. **Academic Interest**: Consider folkloric and anthropological perspectives
+The classic folk belief: a domestic cat that lives many years (7-13 by region) and develops a long tail or great size becomes a bakeneko, taking on shape-shifting and other supernatural powers.
 
----
+### Skeptical
 
-## API Reference
+**Naturalistic origins of cat folklore** _(Modern folkloristic and zoological commentary)_
 
-Machine-readable data is available in [`api.json`](api.json).
+Several bakeneko traits have plausible naturalistic origins: cats' nocturnal eyes, static-electric fur, near-silent gait, retained predatory behaviour, and attraction to fish-based lamp-oils. Cumulative observation of these traits seeded supernatural attribution.
 
-### Data Access
+**Narrative-cultural construction** _(Komatsu Kazuhiko, Michael Dylan Foster)_
 
-```javascript
-// Using WyrdnessAPI
-const wyrd = new WyrdnessAPI();
-const bakeneko = await wyrd.getPhenomenon('bakeneko');
-```
+The bakeneko, like other yōkai, is best understood as a culturally constructed figure consolidated through Edo-period kaidan literature, kabuki, and ukiyo-e rather than as a discrete creature.
 
-### Direct Access
 
-```
-Raw JSON: https://raw.githubusercontent.com/wyrdness/bakeneko/main/api.json
-```
+## Popular Culture
 
----
+**Literature**: Mizuki Shigeru, GeGeGe no Kitarō (1960-) and Yōkai Daizukai compendia; Lafcadio Hearn, In Ghostly Japan (1899) — touches on supernatural-cat motifs; Michael Dylan Foster, The Book of Yōkai (UC Press, 2015); Hiroko Yoda and Matt Alt, Yokai Attack! (Tuttle, 2008/2012)
 
-## Sources & References
+**Film / TV**: Kuroneko (Kaneto Shindō, 1968) — black-cat ghost film with strong bakeneko / kaibyō motifs; Bakeneko: A Vengeful Spirit (Hajime Hashimoto, 2010); Mononoke (anime, 2007) — 'Bakeneko' arc; Numerous tokusatsu and anime series featuring bakeneko characters
 
-See [SOURCES.md](SOURCES.md) for complete bibliography.
+**Games**: Shin Megami Tensei / Persona series — bakeneko / nekomata as recurring demons; Yo-Kai Watch — bakeneko-derived characters; Nioh series — bakeneko bosses and enemies
 
-### Key Sources
-
-- Foster, M.D. (2015). *The Book of Yokai: Mysterious Creatures of Japanese Folklore*
-- Davisson, Z. (2015). *Yurei: The Japanese Ghost*
-- Yokai.com Database
+**Other**: Recurring motif in ukiyo-e by artists including Utagawa Kuniyoshi (e.g. mid-19th-century cat prints) and Tsukioka Yoshitoshi
 
 ---
+## Research
 
-## Changelog
+### Researchers
 
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-01-14 | Initial release |
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Komatsu Kazuhiko | International Research Center for Japanese Studies | Leading academic on Japanese yōkai including bakeneko. | 1980s-present |
+| Michael Dylan Foster | UC Davis (Japanese folklore) | English-language synthesis of yōkai folklore including bakeneko. | 2000s-present |
+| Mizuki Shigeru | Manga artist / yōkai scholar | Modern populariser of bakeneko through manga and yōkai compendia. | 1950s-2015 |
+| Negishi Yasumori | Edo-period magistrate / kaidan compiler | Compiled Mimibukuro, including bakeneko anecdotes. | Late 18th-early 19th century |
+
+### Organizations
+
+- [International Research Center for Japanese Studies (Nichibunken)](https://www.nichibun.ac.jp/en/) — Academic research on Japanese folklore, including yōkai.
+- [Mizuki Shigeru Memorial Museum](https://mizuki.sakaiminato.net/en/) — Sakaiminato, Tottori — Mizuki's yōkai work.
+
+Continued academic interest in Edo-period yōkai literature, ukiyo-e cat imagery, and modern-media reuse of bakeneko.
 
 ---
+## Sources
 
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
+
+
+## How to Report a Sighting
+
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
+
+---
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-[Suggest Correction](../../issues/new?template=correction.yml) • [Full API](api.json)
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._
